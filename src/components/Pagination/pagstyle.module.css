@@ -1,0 +1,42 @@
+.all li {
+  font-size: large;
+  display: inline-block;
+  background-color: #E6E3E3;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 6px;
+  line-height: 42px;
+  border-radius: 8px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.all li:hover {
+  background-color: #f3efef;
+}
+
+.all li:active {
+  background-color: #6b6b6b;
+}
+
+a {
+  display: inline-block;
+  font-weight: 700;
+  color: rgb(63, 63, 63);
+}
+
+:global(.selected a) {
+  font-size: large;
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  border-radius: 8px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  color: white;
+  background-color: #9f1dd3;
+}
+

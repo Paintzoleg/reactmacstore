@@ -1,0 +1,44 @@
+.main {
+  position: relative;
+}
+
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.007);
+  padding: 12px 20px;
+  padding-left: 40px;
+  width: 400px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgba(241, 241, 241, 0.308);
+  box-shadow: 0px 0px 0px 1px #00000027;
+  transition: all 0.1s ease-in-out;
+  left: -250px;
+}
+
+.input:focus {
+  background-color: white;
+  box-shadow: 0px 0px 3px 1px #b727f0ad;
+  /* width: 400px; */
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  opacity: 0.3;
+  position: absolute;
+  left: 10px;
+  top: 14px;
+}
+.x {
+  width: 14px;
+  height: 14px;
+  opacity: 0.3;
+  position: absolute;
+  right: 17px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.x:hover {
+  opacity: 0.5;
+}
