@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Demo of Front-End web store as React/Redux App and Back-End database
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
