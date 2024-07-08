@@ -24,7 +24,7 @@ const Product = ({ id, title, price, image, sizes, types, rating }) => {
       price,
       image,
       type: typeNames[activeType],
-      size: activeSize,
+      sizes[activeSize],
     }
     dispatch(addItem(item))
     
