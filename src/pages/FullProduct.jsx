@@ -8,12 +8,12 @@ import { v4 as uuidv4 } from 'uuid'
 import Lorem from './Lorem'
 import { addItem, selectCartItemById } from '../redux/slices/cartSlice'
 
-const FullProduct = ({ title, price, image, count, sizes, types, rating }) => {
+const FullProduct = ({ price }) => {
   const [product, setProduct] = useState()
   const typeNames = ['silver', 'black']
+  const sizeInch = [11, 13, 14, 16]
 
   const { id } = useParams()
-
 
   const navigate = useNavigate()
 
@@ -23,7 +23,6 @@ const FullProduct = ({ title, price, image, count, sizes, types, rating }) => {
   const [activeSize, setActiveSize] = useState(0)
 
   const addedCount = cartItem ? cartItem.count : 0
-
 
   const onClickBack = () => {
     navigate(-1)
@@ -53,14 +52,13 @@ const FullProduct = ({ title, price, image, count, sizes, types, rating }) => {
     const item = {
       id: product.id,
       title: product.title,
-      price : product.price,
-      image : product.image,
+      price: product.price,
+      image: product.image,
       type: typeNames[activeType],
-      size: sizes[activeSize],
+      size: sizeInch[activeSize],
     }
 
     dispatch(addItem(item))
-
   }
   //==========================================
 
