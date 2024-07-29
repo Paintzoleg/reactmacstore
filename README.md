@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 **Used Technologies:**
 
 - **ReactJS 18**
-- **TypeScript**
+- **Node.js**
 - **Redux Toolkit** (data/product storage)
 - **React Router v6** (navigation)
 - **Axios + Fetch** (sending a request to the backend)
