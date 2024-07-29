@@ -12,6 +12,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - **React Hooks** (hooks)
 - **Prettier** (code formatting)
 - **CSS-Modules / SCSS** (styling)
-- **React Content Loader** (skeleton)
+- **Skeleton** (React Content Loader)
 - **React Pagination**
 - **Lodash** (Debounce)
